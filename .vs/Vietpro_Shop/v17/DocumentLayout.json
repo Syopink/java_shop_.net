@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|c:\\users\\legion\\source\\repos\\vietpro_shop\\vietpro_shop\\data\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\data\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|c:\\users\\legion\\source\\repos\\vietpro_shop\\vietpro_shop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\vietpro_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\Vietpro_Shop\\App.config",
+              "RelativeDocumentMoniker": "Vietpro_Shop\\App.config",
+              "ToolTip": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\Vietpro_Shop\\App.config",
+              "RelativeToolTip": "Vietpro_Shop\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-02T03:13:20.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Connect.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\Vietpro_Shop\\Data\\Connect.cs",
+              "RelativeDocumentMoniker": "Vietpro_Shop\\Data\\Connect.cs",
+              "ToolTip": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\Vietpro_Shop\\Data\\Connect.cs",
+              "RelativeToolTip": "Vietpro_Shop\\Data\\Connect.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T03:08:30.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\Vietpro_Shop\\Program.cs",
+              "RelativeDocumentMoniker": "Vietpro_Shop\\Program.cs",
+              "ToolTip": "C:\\Users\\LEGION\\source\\repos\\Vietpro_Shop\\Vietpro_Shop\\Program.cs",
+              "RelativeToolTip": "Vietpro_Shop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T03:08:13.793Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
