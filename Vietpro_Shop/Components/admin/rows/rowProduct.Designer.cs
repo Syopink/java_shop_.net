@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.update = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.delete = new System.Windows.Forms.Button();
             this.image = new System.Windows.Forms.Label();
             this.idProduct = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.Label();
@@ -50,17 +50,17 @@
             this.update.Text = "U";
             this.update.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // delete
             // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.Control;
-            this.button2.Location = new System.Drawing.Point(1337, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 60);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "D";
-            this.button2.UseVisualStyleBackColor = false;
+            this.delete.BackColor = System.Drawing.Color.Red;
+            this.delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.delete.ForeColor = System.Drawing.SystemColors.Control;
+            this.delete.Location = new System.Drawing.Point(1337, 0);
+            this.delete.Name = "delete";
+            this.delete.Size = new System.Drawing.Size(75, 60);
+            this.delete.TabIndex = 7;
+            this.delete.Text = "D";
+            this.delete.UseVisualStyleBackColor = false;
             // 
             // image
             // 
@@ -87,7 +87,6 @@
             this.idProduct.TabIndex = 0;
             this.idProduct.Text = "ID";
             this.idProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.idProduct.Click += new System.EventHandler(this.idProduct_Click);
             // 
             // name
             // 
@@ -100,7 +99,6 @@
             this.name.TabIndex = 1;
             this.name.Text = "Tên sản phẩm";
             this.name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.name.Click += new System.EventHandler(this.name_Click);
             // 
             // status
             // 
@@ -137,14 +135,13 @@
             this.price.TabIndex = 4;
             this.price.Text = "Giá";
             this.price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.price.Click += new System.EventHandler(this.label4_Click);
             // 
             // rowProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.delete);
             this.Controls.Add(this.update);
             this.Controls.Add(this.image);
             this.Controls.Add(this.price);
@@ -154,14 +151,13 @@
             this.Controls.Add(this.idProduct);
             this.Name = "rowProduct";
             this.Size = new System.Drawing.Size(1411, 204);
-            this.Load += new System.EventHandler(this.rowProduct_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button update;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button delete;
         private System.Windows.Forms.Label image;
         private System.Windows.Forms.Label idProduct;
         private System.Windows.Forms.Label name;

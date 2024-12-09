@@ -21,5 +21,22 @@ namespace Vietpro_Shop.Components.rows
         {
 
         }
+
+        public List<string> CateList(List<object[]> categories)
+        {
+            List<string> cateList = new List<string>();
+            foreach (var row in categories)
+            {
+                string nameCate = row[1].ToString();
+                cateList.Add(nameCate);
+            }
+            return cateList;
+        }
+
+
+
+        public void set() { 
+        
+        }
     }
 }
