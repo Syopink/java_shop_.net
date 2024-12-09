@@ -30,13 +30,14 @@
         {
             this.mainPanel = new System.Windows.Forms.Panel();
             this.userControl11 = new Vietpro_Shop.Controllers.UserControl1();
+            this.navbar1 = new Vietpro_Shop.Controllers.navbar();
             this.SuspendLayout();
             // 
             // mainPanel
             // 
-            this.mainPanel.Location = new System.Drawing.Point(209, 109);
+            this.mainPanel.Location = new System.Drawing.Point(314, 79);
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1348, 558);
+            this.mainPanel.Size = new System.Drawing.Size(1243, 588);
             this.mainPanel.TabIndex = 0;
             this.mainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -48,12 +49,21 @@
             this.userControl11.Size = new System.Drawing.Size(1630, 77);
             this.userControl11.TabIndex = 1;
             // 
+            // navbar1
+            // 
+            this.navbar1.BackColor = System.Drawing.Color.DarkBlue;
+            this.navbar1.Location = new System.Drawing.Point(2, 79);
+            this.navbar1.Name = "navbar1";
+            this.navbar1.Size = new System.Drawing.Size(285, 644);
+            this.navbar1.TabIndex = 2;
+            // 
             // HomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1632, 684);
             this.ControlBox = false;
+            this.Controls.Add(this.navbar1);
             this.Controls.Add(this.userControl11);
             this.Controls.Add(this.mainPanel);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -70,5 +80,6 @@
 
         private System.Windows.Forms.Panel mainPanel;
         private Controllers.UserControl1 userControl11;
+        private Controllers.navbar navbar1;
     }
 }

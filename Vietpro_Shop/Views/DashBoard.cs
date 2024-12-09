@@ -16,5 +16,10 @@ namespace Vietpro_Shop.Views
         {
             InitializeComponent();
         }
+
+        private void DashBoard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

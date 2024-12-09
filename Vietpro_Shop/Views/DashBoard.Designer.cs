@@ -35,7 +35,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "DashBoard";
-            this.Size = new System.Drawing.Size(1348, 558);
+            this.Size = new System.Drawing.Size(1348, 610);
+            this.Load += new System.EventHandler(this.DashBoard_Load);
             this.ResumeLayout(false);
 
         }
