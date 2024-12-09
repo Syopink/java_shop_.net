@@ -204,6 +204,12 @@
     <Compile Include="Controllers\navbar.Designer.cs">
       <DependentUpon>navbar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\toggleRouter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controllers\toggleRouter.Designer.cs">
+      <DependentUpon>toggleRouter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -302,6 +308,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Controllers\navbar.resx">
       <DependentUpon>navbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\toggleRouter.resx">
+      <DependentUpon>toggleRouter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controllers\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
