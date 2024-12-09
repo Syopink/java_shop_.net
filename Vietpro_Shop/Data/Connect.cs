@@ -15,25 +15,37 @@ namespace Database
 
         public SqlConnection ConnectSQL()
         {
-            if (conn != null && conn.State == System.Data.ConnectionState.Open) // Kiểm tra nếu đã có kết nối
+            if (conn != null && conn.State == System.Data.ConnectionState.Open)
             {
                 return conn;
             }
 
             try
             {
-                string connectionString = ConfigurationManager.ConnectionStrings["VietProConnection"].ConnectionString;
+                var connectionStringSettings = ConfigurationManager.ConnectionStrings["VietProConnection"];
+                if (connectionStringSettings == null)
+                {
+                    MessageBox.Show("Chuỗi kết nối không tồn tại trong App.config.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return null;
+                }
+
+                string connectionString = connectionStringSettings.ConnectionString;
 
                 conn = new SqlConnection(connectionString);
-                conn.Open(); // Mở kết nối
+                conn.Open();
                 MessageBox.Show("Kết nối CSDL thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (SqlException ex)
             {
                 MessageBox.Show("Kết nối CSDL thất bại: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi không xác định: " + ex.Message, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
             return conn;
         }
+
     }
 }

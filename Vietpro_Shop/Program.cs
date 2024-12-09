@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Vietpro_Shop.Views;
 
 namespace Vietpro_Shop
 {
@@ -13,7 +14,7 @@ namespace Vietpro_Shop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new HomePage());
+            Application.Run(new Login());
         }
     }
 }
