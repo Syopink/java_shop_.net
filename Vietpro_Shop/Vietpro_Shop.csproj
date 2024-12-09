@@ -36,6 +36,7 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,23 +48,161 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Components\Card\CardDashBoard.cs">
+    <Compile Include="Components\admin\Card\CardDashBoard.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\Card\CardDashBoard.Designer.cs">
+    <Compile Include="Components\admin\Card\CardDashBoard.Designer.cs">
       <DependentUpon>CardDashBoard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\rows\rowProduct.cs">
+    <Compile Include="Components\admin\dialog\addCate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\admin\dialog\addCate.Designer.cs">
+      <DependentUpon>addCate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\dialog\addProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\admin\dialog\addProduct.Designer.cs">
+      <DependentUpon>addProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\dialog\updateCate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\admin\dialog\updateCate.Designer.cs">
+      <DependentUpon>updateCate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\dialog\updateProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\admin\dialog\updateProduct.Designer.cs">
+      <DependentUpon>updateProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListCatePage.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\rows\rowProduct.Designer.cs">
+    <Compile Include="Components\admin\Page\ListCatePage.Designer.cs">
+      <DependentUpon>ListCatePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListCustomerPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListCustomerPage.Designer.cs">
+      <DependentUpon>ListCustomerPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListOrderProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListOrderProduct.Designer.cs">
+      <DependentUpon>ListOrderProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListProductsPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListProductsPage.Designer.cs">
+      <DependentUpon>ListProductsPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListUserPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\Page\ListUserPage.Designer.cs">
+      <DependentUpon>ListUserPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowCate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowCate.Designer.cs">
+      <DependentUpon>rowCate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowCustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowCustomer.Designer.cs">
+      <DependentUpon>rowCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowOrder.Designer.cs">
+      <DependentUpon>rowOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\rows\rowProduct.Designer.cs">
       <DependentUpon>rowProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="Components\util\UpDe.cs">
+    <Compile Include="Components\admin\rows\rowUser.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Components\util\UpDe.Designer.cs">
+    <Compile Include="Components\admin\rows\rowUser.Designer.cs">
+      <DependentUpon>rowUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\admin\util\UpDe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\admin\util\UpDe.Designer.cs">
       <DependentUpon>UpDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerCard\CustomerCardCart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerCard\CustomerCardCart.Designer.cs">
+      <DependentUpon>CustomerCardCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerCard\CustomerCardProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerCard\CustomerCardProduct.Designer.cs">
+      <DependentUpon>CustomerCardProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerCard\CustomerRowOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerCard\CustomerRowOrder.Designer.cs">
+      <DependentUpon>CustomerRowOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerDialog\CustomerProductDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerDialog\CustomerProductDetail.Designer.cs">
+      <DependentUpon>CustomerProductDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerLayout.Designer.cs">
+      <DependentUpon>CustomerLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerPage\CustomerCartPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerPage\CustomerCartPage.Designer.cs">
+      <DependentUpon>CustomerCartPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerPage\CustomerHomePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerPage\CustomerHomePage.Designer.cs">
+      <DependentUpon>CustomerHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerPage\CustomerOrderPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerPage\CustomerOrderPage.Designer.cs">
+      <DependentUpon>CustomerOrderPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\customer\CustomerUtil\CustomerNavbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Components\customer\CustomerUtil\CustomerNavbar.Designer.cs">
+      <DependentUpon>CustomerNavbar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\navbar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controllers\navbar.Designer.cs">
+      <DependentUpon>navbar.cs</DependentUpon>
     </Compile>
     <Compile Include="Controllers\UserControl1.cs">
       <SubType>UserControl</SubType>
@@ -86,14 +225,83 @@
     <Compile Include="Views\DashBoard.Designer.cs">
       <DependentUpon>DashBoard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Components\Card\CardDashBoard.resx">
+    <EmbeddedResource Include="Components\admin\Card\CardDashBoard.resx">
       <DependentUpon>CardDashBoard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\rows\rowProduct.resx">
+    <EmbeddedResource Include="Components\admin\dialog\addCate.resx">
+      <DependentUpon>addCate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\dialog\addProduct.resx">
+      <DependentUpon>addProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\dialog\updateCate.resx">
+      <DependentUpon>updateCate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\dialog\updateProduct.resx">
+      <DependentUpon>updateProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\Page\ListCatePage.resx">
+      <DependentUpon>ListCatePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\Page\ListCustomerPage.resx">
+      <DependentUpon>ListCustomerPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\Page\ListOrderProduct.resx">
+      <DependentUpon>ListOrderProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\Page\ListProductsPage.resx">
+      <DependentUpon>ListProductsPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\Page\ListUserPage.resx">
+      <DependentUpon>ListUserPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\rows\rowCate.resx">
+      <DependentUpon>rowCate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\rows\rowCustomer.resx">
+      <DependentUpon>rowCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\rows\rowOrder.resx">
+      <DependentUpon>rowOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\rows\rowProduct.resx">
       <DependentUpon>rowProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Components\util\UpDe.resx">
+    <EmbeddedResource Include="Components\admin\rows\rowUser.resx">
+      <DependentUpon>rowUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\admin\util\UpDe.resx">
       <DependentUpon>UpDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerCard\CustomerCardCart.resx">
+      <DependentUpon>CustomerCardCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerCard\CustomerCardProduct.resx">
+      <DependentUpon>CustomerCardProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerCard\CustomerRowOrder.resx">
+      <DependentUpon>CustomerRowOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerDialog\CustomerProductDetail.resx">
+      <DependentUpon>CustomerProductDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerLayout.resx">
+      <DependentUpon>CustomerLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerPage\CustomerCartPage.resx">
+      <DependentUpon>CustomerCartPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerPage\CustomerHomePage.resx">
+      <DependentUpon>CustomerHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerPage\CustomerOrderPage.resx">
+      <DependentUpon>CustomerOrderPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Components\customer\CustomerUtil\CustomerNavbar.resx">
+      <DependentUpon>CustomerNavbar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controllers\navbar.resx">
+      <DependentUpon>navbar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Controllers\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>

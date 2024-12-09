@@ -28,80 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.update = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.image = new System.Windows.Forms.Label();
             this.idProduct = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.Label();
             this.status = new System.Windows.Forms.Label();
             this.cate = new System.Windows.Forms.Label();
             this.price = new System.Windows.Forms.Label();
-            this.image = new System.Windows.Forms.Label();
-            this.upDe1 = new Vietpro_Shop.Components.util.UpDe();
             this.SuspendLayout();
             // 
-            // idProduct
+            // update
             // 
-            this.idProduct.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.idProduct.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.idProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.idProduct.Location = new System.Drawing.Point(0, 0);
-            this.idProduct.Name = "idProduct";
-            this.idProduct.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.idProduct.Size = new System.Drawing.Size(128, 63);
-            this.idProduct.TabIndex = 0;
-            this.idProduct.Text = "ID";
-            this.idProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.update.BackColor = System.Drawing.Color.Cyan;
+            this.update.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.update.ForeColor = System.Drawing.SystemColors.Control;
+            this.update.Location = new System.Drawing.Point(1256, 1);
+            this.update.Name = "update";
+            this.update.Size = new System.Drawing.Size(75, 62);
+            this.update.TabIndex = 6;
+            this.update.Text = "U";
+            this.update.UseVisualStyleBackColor = false;
             // 
-            // name
+            // button2
             // 
-            this.name.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.name.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.name.Location = new System.Drawing.Point(127, 0);
-            this.name.Name = "name";
-            this.name.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.name.Size = new System.Drawing.Size(263, 63);
-            this.name.TabIndex = 1;
-            this.name.Text = "Tên sản phẩm";
-            this.name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // status
-            // 
-            this.status.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.status.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.status.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.status.Location = new System.Drawing.Point(1074, 0);
-            this.status.Name = "status";
-            this.status.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.status.Size = new System.Drawing.Size(176, 63);
-            this.status.TabIndex = 2;
-            this.status.Text = "Trạng thái";
-            this.status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cate
-            // 
-            this.cate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.cate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cate.Location = new System.Drawing.Point(835, 0);
-            this.cate.Name = "cate";
-            this.cate.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cate.Size = new System.Drawing.Size(245, 63);
-            this.cate.TabIndex = 3;
-            this.cate.Text = "Danh mục";
-            this.cate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // price
-            // 
-            this.price.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.price.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price.Location = new System.Drawing.Point(382, 0);
-            this.price.Name = "price";
-            this.price.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.price.Size = new System.Drawing.Size(291, 63);
-            this.price.TabIndex = 4;
-            this.price.Text = "Giá";
-            this.price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.price.Click += new System.EventHandler(this.label4_Click);
+            this.button2.BackColor = System.Drawing.Color.Red;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Control;
+            this.button2.Location = new System.Drawing.Point(1337, 0);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 60);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "D";
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // image
             // 
@@ -117,18 +76,76 @@
             this.image.TabIndex = 5;
             this.image.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // upDe1
+            // idProduct
             // 
-            this.upDe1.Location = new System.Drawing.Point(1256, 0);
-            this.upDe1.Name = "upDe1";
-            this.upDe1.Size = new System.Drawing.Size(172, 63);
-            this.upDe1.TabIndex = 6;
+            this.idProduct.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.idProduct.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.idProduct.Location = new System.Drawing.Point(-1, -1);
+            this.idProduct.Name = "idProduct";
+            this.idProduct.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.idProduct.Size = new System.Drawing.Size(128, 63);
+            this.idProduct.TabIndex = 0;
+            this.idProduct.Text = "ID";
+            this.idProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.idProduct.Click += new System.EventHandler(this.idProduct_Click);
+            // 
+            // name
+            // 
+            this.name.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Location = new System.Drawing.Point(126, -1);
+            this.name.Name = "name";
+            this.name.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.name.Size = new System.Drawing.Size(263, 63);
+            this.name.TabIndex = 1;
+            this.name.Text = "Tên sản phẩm";
+            this.name.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.name.Click += new System.EventHandler(this.name_Click);
+            // 
+            // status
+            // 
+            this.status.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.status.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.status.Location = new System.Drawing.Point(1073, -1);
+            this.status.Name = "status";
+            this.status.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.status.Size = new System.Drawing.Size(176, 63);
+            this.status.TabIndex = 2;
+            this.status.Text = "Trạng thái";
+            this.status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cate
+            // 
+            this.cate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cate.Location = new System.Drawing.Point(834, -1);
+            this.cate.Name = "cate";
+            this.cate.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.cate.Size = new System.Drawing.Size(245, 63);
+            this.cate.TabIndex = 3;
+            this.cate.Text = "Danh mục";
+            this.cate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // price
+            // 
+            this.price.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.price.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price.Location = new System.Drawing.Point(381, -1);
+            this.price.Name = "price";
+            this.price.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.price.Size = new System.Drawing.Size(291, 63);
+            this.price.TabIndex = 4;
+            this.price.Text = "Giá";
+            this.price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.price.Click += new System.EventHandler(this.label4_Click);
             // 
             // rowProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.upDe1);
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.update);
             this.Controls.Add(this.image);
             this.Controls.Add(this.price);
             this.Controls.Add(this.cate);
@@ -136,19 +153,20 @@
             this.Controls.Add(this.name);
             this.Controls.Add(this.idProduct);
             this.Name = "rowProduct";
-            this.Size = new System.Drawing.Size(1436, 206);
+            this.Size = new System.Drawing.Size(1411, 204);
+            this.Load += new System.EventHandler(this.rowProduct_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
+        private System.Windows.Forms.Button update;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label image;
         private System.Windows.Forms.Label idProduct;
         private System.Windows.Forms.Label name;
         private System.Windows.Forms.Label status;
         private System.Windows.Forms.Label cate;
         private System.Windows.Forms.Label price;
-        private System.Windows.Forms.Label image;
-        private util.UpDe upDe1;
     }
 }
