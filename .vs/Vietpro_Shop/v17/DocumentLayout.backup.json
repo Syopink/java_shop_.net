@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\Vietpro_shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\controllers\\togglerouter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\controllers\\togglerouter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|D:\\Vietpro_shop\\vietpro_shop\\controllers\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\controllers\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\controllers\\navbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\controllers\\navbar.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\components\\customer\\customerlayout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\components\\customer\\customerlayout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\components\\customer\\customerlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\components\\customer\\customerlayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\components\\customer\\customerpage\\customerorderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\components\\customer\\customerpage\\customerorderpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\components\\customer\\customerlayout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\components\\customer\\customerlayout.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\components\\admin\\page\\listuserpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -73,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|D:\\Vietpro_shop\\vietpro_shop\\controllers\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|solutionrelative:vietpro_shop\\controllers\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F703AD6-9BC1-4DD7-88BC-37396157EE79}|Vietpro_Shop\\Vietpro_Shop.csproj|d:\\vietpro_shop\\vietpro_shop\\components\\admin\\page\\listproductspage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -131,19 +139,52 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "toggleRouter.cs [Design]",
+              "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\toggleRouter.cs",
+              "RelativeDocumentMoniker": "Vietpro_Shop\\Controllers\\toggleRouter.cs",
+              "ToolTip": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\toggleRouter.cs [Design]",
+              "RelativeToolTip": "Vietpro_Shop\\Controllers\\toggleRouter.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:12:52.512Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "navbar.Designer.cs",
+              "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\navbar.Designer.cs",
+              "RelativeDocumentMoniker": "Vietpro_Shop\\Controllers\\navbar.Designer.cs",
+              "ToolTip": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\navbar.Designer.cs",
+              "RelativeToolTip": "Vietpro_Shop\\Controllers\\navbar.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:11:49.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CustomerLayout.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerLayout.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerLayout.cs",
               "ToolTip": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerLayout.cs",
               "RelativeToolTip": "Vietpro_Shop\\Components\\customer\\CustomerLayout.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-09T02:35:34.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "CustomerNavbar.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerUtil\\CustomerNavbar.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerUtil\\CustomerNavbar.cs",
@@ -156,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CustomerNavbar.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerUtil\\CustomerNavbar.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerUtil\\CustomerNavbar.cs",
@@ -168,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "CustomerHomePage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerPage\\CustomerHomePage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerPage\\CustomerHomePage.cs",
@@ -180,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "CustomerLayout.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerLayout.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerLayout.cs",
@@ -192,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "CustomerOrderPage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerPage\\CustomerOrderPage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerPage\\CustomerOrderPage.cs",
@@ -204,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "CustomerCartPage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerPage\\CustomerCartPage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerPage\\CustomerCartPage.cs",
@@ -216,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CustomerLayout.Designer.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerLayout.Designer.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerLayout.Designer.cs",
@@ -228,12 +269,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ListUserPage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListUserPage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListUserPage.cs",
@@ -245,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ListProductsPage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListProductsPage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListProductsPage.cs",
@@ -257,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ListOrderProduct.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListOrderProduct.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListOrderProduct.cs",
@@ -269,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "ListCustomerPage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListCustomerPage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListCustomerPage.cs",
@@ -281,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ListCatePage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListCatePage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListCatePage.cs",
@@ -293,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CustomerCardProduct.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerCard\\CustomerCardProduct.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerCard\\CustomerCardProduct.cs",
@@ -305,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "CustomerRowOrder.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerCard\\CustomerRowOrder.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerCard\\CustomerRowOrder.cs",
@@ -317,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CustomerCardCart.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerCard\\CustomerCardCart.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerCard\\CustomerCardCart.cs",
@@ -329,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "HomePage.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\HomePage.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\HomePage.cs",
@@ -341,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "ListProductsPage.Designer.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListProductsPage.Designer.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListProductsPage.Designer.cs",
@@ -354,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "ListOrderProduct.Designer.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListOrderProduct.Designer.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListOrderProduct.Designer.cs",
@@ -367,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ListCustomerPage.Designer.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\admin\\Page\\ListCustomerPage.Designer.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\admin\\Page\\ListCustomerPage.Designer.cs",
@@ -379,12 +416,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "navbar.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\navbar.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Controllers\\navbar.cs",
@@ -396,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "CustomerProductDetail.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\customer\\CustomerDialog\\CustomerProductDetail.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\customer\\CustomerDialog\\CustomerProductDetail.cs",
@@ -408,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "rowProduct.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Components\\rows\\rowProduct.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Components\\rows\\rowProduct.cs",
@@ -419,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Program.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Program.cs",
@@ -431,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "HomePage.Designer.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\HomePage.Designer.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\HomePage.Designer.cs",
@@ -444,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "DashBoard.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Views\\DashBoard.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Views\\DashBoard.cs",
@@ -455,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "UserControl1.cs",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\UserControl1.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Controllers\\UserControl1.cs",
@@ -467,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "UserControl1.cs [Design]",
               "DocumentMoniker": "D:\\Vietpro_shop\\Vietpro_Shop\\Controllers\\UserControl1.cs",
               "RelativeDocumentMoniker": "Vietpro_Shop\\Controllers\\UserControl1.cs",
