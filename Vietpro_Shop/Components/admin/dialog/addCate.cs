@@ -21,5 +21,10 @@ namespace Vietpro_Shop.Components.admin.dialog
         {
 
         }
+
+        private void add_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

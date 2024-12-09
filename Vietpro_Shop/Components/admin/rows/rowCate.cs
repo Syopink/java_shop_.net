@@ -16,5 +16,15 @@ namespace Vietpro_Shop.Components.rows
         {
             InitializeComponent();
         }
+
+        private void update_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void delete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

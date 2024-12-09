@@ -102,6 +102,7 @@
             this.Controls.Add(this.router1);
             this.Name = "navbar";
             this.Size = new System.Drawing.Size(285, 644);
+            this.Load += new System.EventHandler(this.navbar_Load);
             this.ResumeLayout(false);
 
         }

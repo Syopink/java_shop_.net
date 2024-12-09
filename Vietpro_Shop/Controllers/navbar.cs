@@ -16,5 +16,10 @@ namespace Vietpro_Shop.Controllers
         {
             InitializeComponent();
         }
+
+        private void navbar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

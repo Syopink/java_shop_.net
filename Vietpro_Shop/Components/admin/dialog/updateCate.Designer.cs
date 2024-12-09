@@ -43,6 +43,7 @@
             this.add.TabIndex = 5;
             this.add.Text = "Thêm";
             this.add.UseVisualStyleBackColor = false;
+            this.add.Click += new System.EventHandler(this.add_Click);
             // 
             // textBox1
             // 
